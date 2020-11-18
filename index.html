@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form>
+    <div class="header">
+        <h4 class="head-text">Contact manager</h4>
+        <select name="More actions">
+            <option value="op1">Read more</option>
+            <option value="op2">FAQ</option>
+            <option value="op3">smth more</option>
+        </select>
+    </div>
+    <div class="left-side">
+        <div class="form-element">            
+               <span> Input first name:</span>
+                <input type="text" name="first_name">          
+        </div>
+        <div class="form-element">            
+              <span>  Input last name</span>
+                <input type="text" name="last_name">           
+        </div>
+            <div class="form-element">
+           
+              <span>  Address</span>
+                <input type="text" name="address">
+            
+        </div>
+        <div class="form-element">
+            
+              <span>  City</span>
+                <input type="text" name="city">
+           
+        </div>
+        <div class="form-element">
+           
+           <span> State </span>
+                <select name="select state" >
+                    <option value="st1">New York</option>
+                    <option value="st2">Delawer</option>
+                    <option value="st3">California</option>
+                    <option value="st4">Texas</option>
+                </select>
+          
+        </div>
+        <div class="form-element">
+        
+              <span>  ZIP </span>
+                <input type="text" name="zip_code">
+       
+        </div>
+        <div class="form-element">
+          
+              <span>  Home phone </span>
+                <input type="text" name="home_phone">
+           
+        </div>
+        <div class="form-element">
+            
+              <span>  Work phone </span>
+                <input type="text" name="work_phone">
+           
+        </div>
+        <div class="form-element">
+           
+              <span>  Fax number </span>
+                <input type="text" name="fax">
+            
+        </div>
+        <div class="form-element-1">
+            <span>   WebSite </span>
+                <div class="form-el-1">
+                    <span>  URL </span>
+                        <input type="url" name="site_url">
+                </div>
+                <div class="form-el-2">
+                    <span>  LinkName </span>
+                        <input type="text" name="link">
+                </div>
+        </div>
+        <div class="form-element">
+            
+           <span> Email address </span>
+                <input type="email" name="email">
+           
+        </div>
+    </div>
+        <div class="right-side">
+            <div class="form-element">
+         <span>   When is the best time to contact you? </span>
+           <div class="radio-el1">
+               <label for="">
+                <input name="select_time" type="radio" value="morning">
+              <span>  Morning </span>                    
+            </label>
+            <label for="">  
+                <input name="select_time" type="radio" value="afternoon">     
+                <span>  Afternoon </span>                 
+            </label>  
+            <label for="">    
+            <input name="select_time" type="radio" value="evening">    
+                 <span> Evening </span>
+                </label>
+            </div>
+        </div>
+        <div class="form-element">
+       <span> Wgat is the best way to contact you? </span>
+       <div class="radio-el2">
+           <label for="">
+            <input name="select_way" type="radio" value="phone">
+              <span>  Phone </span>
+            </label>
+            <label for="">
+            <input name="select_way" type="radio" value="email">
+               <span> Email </span>
+            </label> 
+            <label for="">
+            <input name="select_way" type="radio" value="fax">
+           <span> Fax </span>
+        </label>
+        </div>
+        </div>
+        <div class="form-element">
+          <span>  Message </span>            
+            <textarea name="msg" cols="30" rows="5"></textarea>
+       </div>
+        </div>
+    <div class="footer">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+</div>
+</form>
+
+</body>
+</html>
